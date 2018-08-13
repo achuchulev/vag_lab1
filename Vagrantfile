@@ -8,7 +8,7 @@
 
 Vagrant.configure("2") do |config|
 
-  config.vm.box = "centos/7"
+  config.vm.box = "ubuntu/trusty64"
   config.vm.hostname = "web01"
 
   # use to set static IP
