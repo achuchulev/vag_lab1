@@ -12,7 +12,7 @@ Vagrant.configure("2") do |config|
   config.vm.hostname = "web01"
 
   # use to set static IP
-  config.vm.network "private_network", ip: "192.168.50.4"
+  config.vm.network "private_network", ip: "192.168.56.56"
 
   # use to run provision script
   config.vm.provision "shell", path: "scripts/provision.sh", privileged: "false"
