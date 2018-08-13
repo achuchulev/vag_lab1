@@ -8,9 +8,8 @@
 
 Vagrant.configure("2") do |config|
 
-  config.vm.box = "hashicorp/precise64"
+  config.vm.box = "centos/7"
   config.vm.hostname = "web01"
-
 
   # use to set static IP
   config.vm.network "private_network", ip: "192.168.50.4"
