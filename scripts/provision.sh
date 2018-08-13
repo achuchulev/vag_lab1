@@ -4,16 +4,16 @@
 # install curl if not installed
 which curl || {
   echo no, curl its not installed 
-  yum update
-  yum install -y curl
+  apt-get update
+  apt-get install -y curl
 }
 
 # check if nginx is installed
 # install nginx if not installed
 which nginx || {
   echo no, nginx its not installed 
-  yum update
-  yum install -y nginx
+  apt-get update
+  apt-get install -y nginx
 }
 
 # start nginx service
